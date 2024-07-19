@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FFCD9E;
+
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px; 
+    height: calc(100vh - 100px); 
+}
+
+.homepage {
+    text-align: left; 
+    flex: 1; 
+    margin-right: 20px; 
+    max-width: 500px;
+    margin-left: 100px;
+}
+
+.fronttext {
+    margin-bottom: 20px; 
+}
+.fronttext h3 {
+    font-size: 24px; 
+    line-height: 1.5; 
+    width: 100%; 
+    max-width: 400px; 
+}
+
+.fronttext p {
+    font-size: 16px; 
+    line-height: 1.5; 
+    width: 100%; 
+    max-width: 360px; 
+}
+
+.emailholder {
+    margin-bottom: 20px; 
+    display: flex; 
+    gap: 10px; 
+}
+
+.textinput {
+    
+    padding:  10px; 
+    font-size: 16px; 
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+}
+
+.registerbtn {
+    padding: 10px 15px; 
+    font-size: 16px; 
+    background-color: #282828;
+    color: white; 
+    border: 2px solid #282828;
+    border-radius: 5px; 
+    cursor: pointer; 
+    width: 180px;
+}
+.lastContent{
+    font-weight: bold;
+}
+.container p{
+    font-family: Inter;
+}
+.leftimage img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #282828;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 20px;
+    margin: 80px 80px; 
+}
+
+.footertextleft{
+    display: inline-block;
+    text-align: left;
+
+}
+.footertextright {
+    display: inline-block;
+    text-align: right;
+
+}
+
+.footertext p,
+.footertextright p {
+    margin: 5px 0;
+}
+
+.footertextright img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
