@@ -66,8 +66,9 @@ body {
 .lastContent{
     font-weight: bold;
 }
-.container p{
+.belowbtntext{
     font-family: Inter;
+    color: white;
 }
 .leftimage img {
     max-width: 100%;
